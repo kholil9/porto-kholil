@@ -12,7 +12,7 @@ body {
     padding-top: 69px;
 }
 header {
-    background: rgb(240, 243, 76);
+    background: grey;
     border-bottom: 4px solid rgb(204, 0, 44);
     padding: 16px;
     position: fixed;
