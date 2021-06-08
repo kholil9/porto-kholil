@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    padding-top: 69px;
+}
+header {
+    background: rgb(240, 243, 76);
+    border-bottom: 4px solid rgb(204, 0, 44);
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color:maroon;
+    
+}
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto; 
+   
+}
+
+.logo {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 30px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 8px;
+    font-size: 14px;
+}
+
+.menu li a {
+    margin: 0 12px;
+    font-size: 0px 200px;  
+    font-family: sans-serif;
+    text-decoration: none;
+    color:maroon;
+}
+
+menu li a:hover {
+    color:maroon
+}
+
+#slider {
+    padding: 180px 0;
+    background: black;
+
+}
+
+.slider {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: rgb(179, 23, 23);
+    font-style: unset;
+ }
+
+#about, #skill, #contact {
+
+    padding: 180px 0;
+}
+
+#about {
+    background: black;
+}
+    
+    
+
+#skill
+{
+    background-image: url("foto.jpg");
+    background-size: cover;
+    background-position: center ;
+    
+    
+}
+.about-content {
+    box-shadow:0px 0px 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    border-radius: 20px;
+    margin:0 18px;
+    padding: 90px;
+
+  
+}
+
+.about-image {
+    width: 30%;
+    
+}
+
+.about-image img{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.about-text {
+    width: 60%;
+    line-height: 21px;
+    padding-left: 10%;
+    color:maroon;
+}
+
+.skill-sets {
+    display: flex;
+
+}
+.skill-item {
+    background: aliceblue;
+    box-shadow:0 1px 3px #ccc;
+    padding: 16px;
+    margin: 0  8px;
+    border-radius: 8px;
+}
+
+.tittle {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 18px;
+}
+.contact-info {
+    margin-top: 24px;
+
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+
+
